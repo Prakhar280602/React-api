@@ -1,0 +1,12 @@
+1. Create a new React Vite app using the filter boilerplate.
+2. Within the src directory, create a components folder. Inside this folder, create Nav, Gallery, and About components.
+3. Implement routing to define desired routes in the App component and the Nav component to enable navigation between the components.
+4. Create a utils folder inside the src directory. Within this folder, configure global Axios with a base URL of lorempixum.
+5. Import Axios into the Gallery component. Create a function named getImages to fetch images from the API and store them using useState.
+6. Render the images in the Gallery component's view. Include a button that calls the getImages function when clicked.
+7. Modify the Gallery component to automatically fetch images from the API when it comes into view by using useEffect, rather than relying on the button click.
+
+
+https://picsum.photos/v2/list?page=1&limit=20
+
+Use this Lorem Picsum API for images and breake down in baseURL and routes
